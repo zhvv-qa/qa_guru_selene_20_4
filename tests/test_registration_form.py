@@ -37,7 +37,7 @@ def test_submit_form():
     browser.element('[for=hobbies-checkbox-1]').click() # Sports
 
     # загрузка картинки
-    #browser.element('#upload_picture').send_keys(os.path.abspath('testpion.jpeg'))
+    browser.element('#uploadPicture').send_keys(os.path.abspath('testpion.jpeg'))
 
     # заполнить адрес
     browser.element('#currentAddress').type('Test address 789')
